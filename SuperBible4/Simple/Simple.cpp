@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
 	// 单缓冲模式，RGBA为显示模式
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
 	// 创建一个窗口，标题为Simple
-	glutCreateWindow("Simple测试");
+	glutCreateWindow("Simple");
 	// 显示回调函数
 	glutDisplayFunc(RenderScene);
 	// 设置渲染状态
